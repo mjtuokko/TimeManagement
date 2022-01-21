@@ -14,9 +14,9 @@ def main():
             #make new timestamp
             timestamp = time.time()
             start_time = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
-            subject=input("Subject (QM,GR,QMEC,ELSE): ")
+            subject=input("Subject (QM,GR,StatMec,ELSE): ")
             print("You are studying now.")
-            input("Press Enter, when you are studied enough.")
+            input("Press Enter, when you have studied enough.")
             timestamp = time.time()
             end_time = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')  
             
